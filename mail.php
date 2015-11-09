@@ -1,11 +1,11 @@
 <?php
 $firstname = $_POST['fname'];
-$lastname = $_POST['lname'];
+$email = $_POST['email'];
 $text = $_POST['text'];
 
 $to = "youremail@gmail.com";
 $subject = "Hello World";
-$message = "Firstname: $firstname \n\n Lastname: $lastname";
+$message = "Firstname: $firstname \n\n Email: $email";
 $from = "sender@example.com";
 $headers = "From:" . $from;
 
